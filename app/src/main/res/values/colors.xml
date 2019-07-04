@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#eaeaea</color>
+    <color name="backgroundcolor">#fcfcfc</color>
+    <color name="white">#fcfcfc</color>
+    <color name="lightgray">#ededed</color>
+    <color name="transparent_white">#80ffffff</color>
+
+    <!--Kecepatan-->
+    <color name="deeppurple">#9979c9</color>
+    <color name="softpurple">#d2c7e2</color>
+    <color name="darkpurple">#5e4d77</color>
+    <!--Gaya-->
+    <color name="pink">#f7a5cc</color>
+    <color name="softpink">#edcedd</color>
+    <color name="darkpink">#70465a</color>
+    <!--Percepatan-->
+    <color name="green">#7cc1b7</color>
+    <color name="softgreen">#b5ddd8</color>
+    <color name="darkgreen">#426660</color>
+
+    <color name="blue">#6ac7ed</color>
+    <color name="yello">#dae0a3</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="darkblue">#23283a</color>
+    <color name="testcolorblue">#152b38</color>
+
+
+
+
+    <color name="black_overlay">#66000000</color>
+</resources>

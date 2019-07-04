@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-8dp"
+                android:layout_marginLeft="0dp"
+                android:src="@drawable/header" />
+
+            <Button
+                android:id="@+id/KecepatanID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="260dp"
+                android:background="@drawable/btnmenukecepatan" />
+
+            <Button
+                android:id="@+id/GayaID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btnmenugaya"
+                android:layout_marginLeft="135dp"
+                android:layout_marginTop="260dp" />
+
+            <Button
+                android:id="@+id/PercepatanID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="255dp"
+                android:layout_marginTop="260dp"
+                android:background="@drawable/btnmenupercepatan" />
+
+                <Button
+                    android:id="@+id/BelajarID"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btnmenubelajar"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="380dp" />
+
+            <Button
+                android:id="@+id/Exit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="550dp"
+                android:background="@drawable/btnmenukeluar" />
+        </RelativeLayout>
+<!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--tools:context=".MainActivity"-->
+    <!--android:orientation="vertical"-->
+    <!--android:padding="10dp"-->
+    <!--android:gravity="center"-->
+    <!--android:background="@color/backgroundcolor">-->
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:clipToPadding="false"-->
+        <!--android:gravity="center"-->
+        <!--android:orientation="horizontal">-->
+
+        <!--<android.support.v7.widget.CardView-->
+            <!--android:id="@+id/KecepatanID"-->
+            <!--android:layout_width="300dp"-->
+            <!--android:layout_height="150dp"-->
+            <!--android:layout_margin="10dp"-->
+            <!--android:clickable="true"-->
+            <!--android:foreground="?android:attr/selectableItemBackground">-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:gravity="center"-->
+                <!--android:orientation="vertical">-->
+
+                <!--<ImageView-->
+                    <!--android:layout_width="64dp"-->
+                    <!--android:layout_height="64dp"-->
+                    <!--android:background="@drawable/circlebackgroundpurple"-->
+                    <!--android:padding="10dp"-->
+                    <!--android:src="@drawable/ic_flight_black_24dp" />-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginTop="10dp"-->
+                    <!--android:text="Kecepatan"-->
+                    <!--android:textStyle="bold" />-->
+
+                <!--<View-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="1dp"-->
+                    <!--android:layout_margin="10dp"-->
+                    <!--android:background="@color/lightgray" />-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:gravity="center"-->
+                    <!--android:padding="5dp"-->
+                    <!--android:text="Menghitung Kecepatan"-->
+                    <!--android:textColor="@android:color/darker_gray" />-->
+            <!--</LinearLayout>-->
+
+        <!--</android.support.v7.widget.CardView>-->
+
+
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:clipToPadding="false"-->
+        <!--android:gravity="center"-->
+        <!--android:orientation="horizontal">-->
+
+        <!--<android.support.v7.widget.CardView-->
+            <!--android:id="@+id/GayaID"-->
+            <!--android:layout_width="150dp"-->
+            <!--android:layout_height="190dp"-->
+            <!--android:layout_margin="10dp"-->
+            <!--android:clickable="true"-->
+            <!--android:foreground="?android:attr/selectableItemBackground">-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:gravity="center"-->
+                <!--android:orientation="vertical">-->
+
+                <!--<ImageView-->
+                    <!--android:layout_width="64dp"-->
+                    <!--android:layout_height="64dp"-->
+                    <!--android:background="@drawable/circlebackgroundpink"-->
+                    <!--android:padding="10dp"-->
+                    <!--android:src="@drawable/ic_transfer_within_a_station_black_24dp" />-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginTop="10dp"-->
+                    <!--android:text="Gaya"-->
+                    <!--android:textStyle="bold" />-->
+
+                <!--<View-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="1dp"-->
+                    <!--android:layout_margin="10dp"-->
+                    <!--android:background="@color/lightgray" />-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:gravity="center"-->
+                    <!--android:padding="5dp"-->
+                    <!--android:text="Menghitung Gaya"-->
+                    <!--android:textColor="@android:color/darker_gray" />-->
+            <!--</LinearLayout>-->
+
+        <!--</android.support.v7.widget.CardView>-->
+
+        <!--<android.support.v7.widget.CardView-->
+            <!--android:id="@+id/PercepatanID"-->
+            <!--android:layout_width="150dp"-->
+            <!--android:layout_height="190dp"-->
+            <!--android:layout_margin="10dp"-->
+            <!--android:clickable="true"-->
+            <!--android:foreground="?android:attr/selectableItemBackground">-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:gravity="center"-->
+                <!--android:orientation="vertical">-->
+
+                <!--<ImageView-->
+                    <!--android:layout_width="64dp"-->
+                    <!--android:layout_height="64dp"-->
+                    <!--android:background="@drawable/circlebackgroundgreen"-->
+                    <!--android:padding="10dp"-->
+                    <!--android:src="@drawable/ic_timer_black_24dp" />-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginTop="10dp"-->
+                    <!--android:text="Percepatan"-->
+                    <!--android:textStyle="bold" />-->
+
+                <!--<View-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="1dp"-->
+                    <!--android:layout_margin="10dp"-->
+                    <!--android:background="@color/lightgray" />-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:gravity="center"-->
+                    <!--android:padding="5dp"-->
+                    <!--android:text="Menghitung Percepatan"-->
+                    <!--android:textColor="@android:color/darker_gray" />-->
+
+            <!--</LinearLayout>-->
+        <!--</android.support.v7.widget.CardView>-->
+    <!--</LinearLayout>-->
+
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:clipToPadding="false"-->
+        <!--android:gravity="center"-->
+        <!--android:orientation="horizontal">-->
+
+        <!--<android.support.v7.widget.CardView-->
+            <!--android:id="@+id/LearnID"-->
+            <!--android:layout_width="300dp"-->
+            <!--android:layout_height="150dp"-->
+            <!--android:layout_margin="10dp"-->
+            <!--android:clickable="true"-->
+            <!--android:foreground="?android:attr/selectableItemBackground">-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:gravity="center"-->
+                <!--android:orientation="vertical">-->
+
+                <!--<ImageView-->
+                    <!--android:layout_width="64dp"-->
+                    <!--android:layout_height="64dp"-->
+                    <!--android:background="@drawable/circlebackgroundblue"-->
+                    <!--android:padding="10dp"-->
+                    <!--android:src="@drawable/ic_archive_black_24dp" />-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginTop="10dp"-->
+                    <!--android:text="Learn"-->
+                    <!--android:textStyle="bold" />-->
+
+                <!--<View-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="1dp"-->
+                    <!--android:layout_margin="10dp"-->
+                    <!--android:background="@color/lightgray" />-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:gravity="center"-->
+                    <!--android:padding="5dp"-->
+                    <!--android:text="Belajar Perhitungan Fisika"-->
+                    <!--android:textColor="@android:color/darker_gray" />-->
+            <!--</LinearLayout>-->
+
+        <!--</android.support.v7.widget.CardView>-->
+
+    <!--</LinearLayout>-->
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:clipToPadding="false"-->
+        <!--android:gravity="center"-->
+        <!--android:orientation="horizontal">-->
+
+        <!--<android.support.v7.widget.CardView-->
+            <!--android:id="@+id/HistoryID"-->
+            <!--android:layout_width="200dp"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:clickable="true"-->
+            <!--android:foreground="?android:attr/selectableItemBackground">-->
+
+            <!--<Button-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Keluar"-->
+                <!--android:id="@+id/Exit"/>-->
+
+        <!--</android.support.v7.widget.CardView>-->
+
+    <!--</LinearLayout>-->
+
+
+    <!--</LinearLayout>-->
+
+</ScrollView>
